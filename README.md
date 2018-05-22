@@ -13,6 +13,7 @@ Welcome to the PermissionManager wiki!
         compile 'com.github.karanchuri:PermissionManager:0.1.0'
 }` 
 ### Main Activity
+
 `PermissionManager permissionManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +42,7 @@ Welcome to the PermissionManager wiki!
     public void onRequestPermissionsResult(int requestCode,String permissions[], int[] grantResults) {
         permissionManager.checkResult(requestCode,permissions, grantResults);
     }
-}
+}`
 //
 
 <uses-permission android:name="android.permission.INTERNET" />
